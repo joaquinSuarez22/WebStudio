@@ -1,4 +1,8 @@
+/*FONT FAMILY*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap");
+
+/*RESET*/
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +12,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+/*HEADER / NAVBAR*/
+
 .nav-link {
   color: black !important;
 }
@@ -22,6 +29,9 @@ html {
   padding: 30px;
   text-align: center;
 }
+
+/*------------------------------*/
+
 /*Section hero*/
 .carousel-item img {
   width: 100%;
@@ -32,6 +42,8 @@ html {
   background-color: rgba(0, 0, 0, 0.116);
   border-radius: 1rem;
 }
+
+/*-------------------------------*/
 /*CARD INFO*/
 .Card-Info {
   display: flex;
