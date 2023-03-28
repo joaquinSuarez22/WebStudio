@@ -9,18 +9,37 @@
     <meta name="description" content="Home - WebStudio" />
     <meta name="keywords" content="LandingPage DiseñosWeb OnePage" />
     <meta name="language" content="spanish" />
-    <link rel="shortcut icon" href="img/cover.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./Img/cover.png" type="image/x-icon" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <title>WebStudio</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="img/cover.png" alt="img" class="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <a class="navbar-brand" href="#"
+            ><img src="./Img/profile.png" alt="img" class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -33,18 +52,160 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Planes</a>
-              </li>    
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
-              </li>        
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section class="hero" id="hero"></section>
-      <section class="Card-Info" id="Card-Info"></section>
+      <section class="hero" id="hero">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./Img/carrousel-1.jpg"
+                alt="Los Angeles"
+                class="d-block"
+                style="width: 100%"
+              />
+              <div class="carousel-caption">
+                <h3>Sitios Webs Adaptables</h3>
+                <p>
+                  Todas nuestras Landing Pages, se adaptan de la mejor manera a
+                  todos los dispositivos.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Img/carrousel-2.jpg"
+                alt="Chicago"
+                class="d-block"
+                style="width: 100%"
+              />
+              <div class="carousel-caption">
+                <h3>LAS MEJORES TECNOLOGIAS</h3>
+                <p>
+                  Aplicamos nuestras mejores tecnologias para que sus paginas
+                  webs aparezcan en lo más alto en Google.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Img/carrousel-3.jpg"
+                alt="New York"
+                class="d-block"
+                style="width: 100%"
+              />
+              <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </section>
+      <section class="Card-Info" id="Card-Info">
+        <div
+          id="card"
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <img class="logo-card" src="./Img/responsive.jpg" alt="" />
+
+          <div class="p-5">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+          </div>
+        </div>
+        <div
+          id="card"
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <img class="logo-card" src="./Img/responsive.jpg" alt="" />
+          <div class="p-5">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+          </div>
+        </div>
+        <div
+          id="card"
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <div class="logo-card">
+            <img class="logo-card" src="./Img/responsive.jpg" alt="" />
+          </div>
+          <div class="p-5">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section class="Tecnologias" id="Tecnologias"></section>
       <section class="Proyectos" id="Proyectos"></section>
       <section class="Planes" id="Planes"></section>
@@ -55,8 +216,9 @@
     </main>
   </body>
   <script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-  integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-  crossorigin="anonymous"
-></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
 </html>

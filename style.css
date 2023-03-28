@@ -1,22 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-.nav-link{
-    color: black !important;
+.nav-link {
+  color: black !important;
 }
-.logo{
-    width: 180px;
+.logo {
+  width: 250px;
 }
-.navbar{
-    background-color: #4fa4f4;
+.navbar {
+  background-color: #4fa4f4;
+  height: 100px;
 }
-.nav-item{
-    padding: 20px;
+.nav-item {
+  padding: 30px;
+  text-align: center;
+}
+/*Section hero*/
+.carousel-item img {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.116);
+  border-radius: 1rem;
+}
+/*CARD INFO*/
+.Card-Info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 5rem;
+  height: 800px;
+  width: auto;
+}
+#card {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-card {
+  height: 300px;
+  width: 300px;
 }
