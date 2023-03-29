@@ -30,7 +30,7 @@ html {
   text-align: center;
 }
 
-/*------------------------------*/
+/*--------------------------------------------------------*/
 
 /*Section hero*/
 .carousel-item img {
@@ -43,7 +43,7 @@ html {
   border-radius: 1rem;
 }
 
-/*-------------------------------*/
+/*--------------------------------------------------------*/
 /*CARD INFO*/
 .Card-Info {
   display: flex;
@@ -64,3 +64,47 @@ html {
   height: 300px;
   width: 300px;
 }
+
+/*--------------------------------------------------------*/
+
+/*section tecnologias*/
+
+.Tecnologias {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: gray;
+}
+
+.Tecnologias img {
+  width: 100px;
+}
+
+.Tecnologias,
+.container_tecno {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.Tecnologias,
+.container_tecno,
+h6 {
+  padding-top: 10px;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.tecno_div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/*--------------------------------------------------------*/
