@@ -43,7 +43,8 @@ a {
 
 .navlink,
 a:hover {
-  color: #00b4d8 !important;
+  color: #3454d1 !important;
+  /*  color: #00b4d8 !important; */
   /*   border-bottom: solid #00b4d8;
  */
   transition: 0.2s;
@@ -320,3 +321,16 @@ h6 {
 }
 
 /*--------------------------------------------------------*/
+
+footer {
+  margin-top: 2rem;
+}
+
+.socialmedia {
+  font-size: 2rem;
+}
+
+.footer_div_redes {
+  display: flex;
+  gap: 1rem;
+}
