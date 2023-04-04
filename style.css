@@ -252,7 +252,25 @@ h6 {
 
 /*--------------------------------------------------------*/
 
-/*PLANES*/
+/*PLANES / CARDS*/
+
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
 
 /*--------------------------------------------------------*/
 
@@ -261,6 +279,19 @@ h6 {
 /*--------------------------------------------------------*/
 
 /*FOOTER*/
+
+footer {
+  margin-top: 2rem;
+}
+
+.socialmedia {
+  font-size: 2rem;
+}
+
+.footer_div_redes {
+  display: flex;
+  gap: 1rem;
+}
 
 /*--------------------------------------------------------*/
 
@@ -321,16 +352,3 @@ h6 {
 }
 
 /*--------------------------------------------------------*/
-
-footer {
-  margin-top: 2rem;
-}
-
-.socialmedia {
-  font-size: 2rem;
-}
-
-.footer_div_redes {
-  display: flex;
-  gap: 1rem;
-}
