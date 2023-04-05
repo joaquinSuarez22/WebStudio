@@ -2,11 +2,25 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,500;0,700;1,900&display=swap");
 
-/* .hola{
-  color: #3454D1;
-} */
+/*PALETA DE COLORES*/
 
-/*RESET*/
+:root {
+  --azul: #3454d1;
+
+  --blanco-1: #f8f9fa;
+  --blanco-2: #e9ecef;
+  --blanco-3: #dee2e6;
+  --blanco-4: #ced4da;
+
+  --gris-1: #adb5bd;
+  --gris-2: #6c757d;
+  --gris-3: #495057;
+  --gris-4: #343a40;
+
+  --negro-1: #343a40;
+}
+
+/*--------------------------------------------------------*/
 
 * {
   margin: 0;
@@ -20,7 +34,15 @@ html {
 }
 
 body {
-  background-color: #efefef;
+  /*   background-color: #efefef;
+ */
+
+  background-color: var(--blanco-1);
+}
+
+::selection {
+  background-color: var(--gris-1);
+  color: var(--azul);
 }
 
 /*--------------------------------------------------------*/
@@ -34,16 +56,17 @@ header {
   z-index: 999;
   position: fixed;
   font-weight: 700;
+  background-color: var(--blanco-2);
 }
 
 .navlink,
 a {
-  color: black !important;
+  color: var(--negro-1) !important;
 }
 
 .navlink,
 a:hover {
-  color: #3454d1 !important;
+  color: var(--azul) !important;
   /*  color: #00b4d8 !important; */
   /*   border-bottom: solid #00b4d8;
  */
@@ -113,8 +136,8 @@ a:hover {
 
 .hero_btn_wpp:hover,
 .hero_btn_planes:hover {
-  background-color: #a7c957;
-  border-color: #a7c957;
+  background-color: #25d366;
+  border-color: #25d366;
   transition: 0.5s;
 }
 
@@ -125,6 +148,7 @@ a:hover {
 .onepage_info {
   margin-top: 15rem;
   margin-bottom: 5rem;
+  background-color: var(--blanco-4);
 }
 
 .container_onepage_info {
@@ -134,6 +158,8 @@ a:hover {
   justify-content: center;
   text-align: center;
   gap: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .onepageinfo_h6 {
@@ -163,7 +189,7 @@ a:hover {
 
 .caracteristicas {
   margin-top: 10rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 
 .container_caracteristicas {
@@ -180,11 +206,15 @@ a:hover {
   display: flex;
   flex-direction: row;
   gap: 5rem;
-  background-color: red;
+  /*   background-color: red;
+ */
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .caracteristicas_h6 {
   font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .caracteristicas_p {
@@ -201,6 +231,19 @@ a:hover {
   font-size: 3rem;
 }
 
+.caracteristicas_fila_div {
+  background-color: var(--blanco-2);
+  width: 500px;
+  height: 600px;
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
 /*--------------------------------------------------------*/
 
 /*section tecnologias*/
@@ -210,8 +253,10 @@ a:hover {
   align-items: center;
   text-align: center;
   justify-content: center;
+  /*   background-color: gray;
+ */
 
-  background-color: gray;
+  background-color: var(--blanco-4);
 }
 
 .Tecnologias img {
@@ -247,12 +292,17 @@ h6 {
 /*PROYECTOS / PORTFOLIO*/
 
 .Proyectos {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 /*--------------------------------------------------------*/
 
 /*PLANES / CARDS*/
+
+.Planes {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
 
 .rounded-lg {
   border-radius: 1rem !important;
@@ -275,8 +325,39 @@ h6 {
 /*--------------------------------------------------------*/
 
 /*CONTACTO*/
-.form{
+.form {
   padding: 5rem;
+}
+
+.Contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contacto_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact_row_div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.md-form {
+  margin-top: 1rem;
 }
 
 /*--------------------------------------------------------*/
