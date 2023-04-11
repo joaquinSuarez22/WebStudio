@@ -301,8 +301,8 @@ h6 {
 
 .Planes {
   margin-top: 10rem;
-  margin-bottom: 10rem;
-}
+/*   margin-bottom: 10rem;
+ */}
 
 .rounded-lg {
   border-radius: 1rem !important;
