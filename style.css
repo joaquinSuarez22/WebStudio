@@ -301,8 +301,9 @@ h6 {
 
 .Planes {
   margin-top: 10rem;
-/*   margin-bottom: 10rem;
- */}
+  /*   margin-bottom: 10rem;
+ */
+}
 
 .rounded-lg {
   border-radius: 1rem !important;
@@ -321,12 +322,12 @@ h6 {
 .text-uppercase {
   letter-spacing: 0.2em;
 }
-.boton-price{
+.boton-price {
   color: white !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 }
-.boton-price:hover{
+.boton-price:hover {
   color: white !important;
 }
 /*--------------------------------------------------------*/
@@ -369,6 +370,18 @@ h6 {
 
 /*--------------------------------------------------------*/
 
+.planes_titulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.planes_h2 {
+  font-size: 3rem;
+}
+
+/*--------------------------------------------------------*/
+
 /*FOOTER*/
 
 footer {
@@ -378,22 +391,47 @@ footer {
 .socialmedia {
   font-size: 2rem;
 }
-.bi-facebook:hover{
+.bi-facebook:hover {
   color: #3b5998;
 }
-.bi-instagram:hover{
-  color: #f09433; 
-  color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-  color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+.bi-instagram:hover {
+  color: #f09433;
+  color: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
-.bi-linkedin:hover{
+.bi-linkedin:hover {
   color: #0e76a8;
 }
 .footer_div_redes {
   display: flex;
   gap: 1rem;
+}
+
+.footer_copyright {
+  color: var(--azul) !important;
 }
 
 /*--------------------------------------------------------*/
@@ -455,3 +493,89 @@ footer {
 }
 
 /*--------------------------------------------------------*/
+
+/*formulario*/
+
+.formulario__ {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form__ {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.formulario__ {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formulario__contacto {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border-radius: 7px;
+}
+
+.div__text {
+  font-size: 20px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background-color: var(--azul);
+
+  border: none;
+  color: black;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 460px) {
+  .form__ {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .form__ {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .form__ {
+    width: 200px;
+  }
+}
