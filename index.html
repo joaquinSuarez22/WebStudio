@@ -31,8 +31,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
 
-    <!--CSS-->
-    <link rel="stylesheet" href="wickedcss.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -86,7 +90,9 @@
       <!--HERO-->
       <section class="hero">
         <div class="hero_container">
-          <div class="hero_container_izq">
+          <div
+            class="hero_container_izq animate__animated animate__slideInLeft"
+          >
             <h1 class="hero_container_izq_h1 slide-right">
               DISEÑO DE PAGINAS WEB <br />
               "ONE PAGE"
@@ -113,7 +119,9 @@
               </button>
             </div>
           </div>
-          <div class="hero_container_der">
+          <div
+            class="hero_container_der animate__animated animate__slideInRight"
+          >
             <img
               src="./Img/undraw_pair_programming_re_or4x.svg"
               alt="hero img"
@@ -129,7 +137,12 @@
 
       <section class="onepage_info">
         <div class="container_onepage_info">
-          <div class="onepageinfo_texto">
+          <div
+            class="onepageinfo_texto"
+            data-aos="fade-up-right"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
             <div class="onepageinfo_texto1">
               <h6 class="onepageinfo_h6">¿ Qué es un Onepage ?</h6>
               <p class="onepageinfo_p">
@@ -151,7 +164,12 @@
             </div>
           </div>
 
-          <div class="onepage_img">
+          <div
+            class="onepage_img"
+            data-aos="fade-up-left"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
             <img
               src="./Img/undraw_code_thinking_re_gka2.svg"
               alt="img onepage"
@@ -166,11 +184,19 @@
 
       <section class="caracteristicas">
         <div class="caracteristicas_titulo">
-          <h2 class="caracteristicas_h2">Las mejores caracteristicas</h2>
+          <h2 class="caracteristicas_h2 animate__animated animate__slideInLeft">
+            Las mejores caracteristicas
+          </h2>
         </div>
 
         <div class="container_caracteristicas">
-          <div class="caracteristicas_fila1">
+          <div
+            class="caracteristicas_fila1"
+            class="onepageinfo_texto"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
             <div class="caracteristicas_fila_div">
               <img
                 class="caracteristicas_img"
@@ -216,7 +242,13 @@
             </div>
           </div>
 
-          <div class="caracteristicas_fila2">
+          <div
+            class="caracteristicas_fila2"
+            class="onepageinfo_texto"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
             <div class="caracteristicas_fila_div">
               <img
                 class="caracteristicas_img"
@@ -302,10 +334,10 @@
 
           <div class="container_caracteristicas">
             <div class="caracteristicas_fila1">
-              <div class="caracteristicas_fila_div">
+              <div class="caracteristicas_fila_div proyectos_fila_div aa">
                 <img
                   class="caracteristicas_img"
-                  src="./Img/sneakersclub.png"
+                  src="./Img/proyectos/sneakersclub.png"
                   width="300px"
                   alt=""
                 />
@@ -313,31 +345,31 @@
                 <p class="caracteristicas_p">Tienda de ropa</p>
               </div>
 
-              <div class="caracteristicas_fila_div">
+              <div class="caracteristicas_fila_div proyectos_fila_div aa">
                 <img
                   class="caracteristicas_img"
-                  src="./Img/undraw_pair_programming_re_or4x.svg"
+                  src="./Img/proyectos/Portfolio.png"
                   width="300px"
                   alt=""
                 />
-                <h6 class="caracteristicas_h6">titulo 1234</h6>
-                <p class="caracteristicas_p">lalalaallalala</p>
+                <h6 class="caracteristicas_h6">Portfolio</h6>
+                <p class="caracteristicas_p">Pagina de informacion personal</p>
               </div>
 
-              <div class="caracteristicas_fila_div">
+              <div class="caracteristicas_fila_div proyectos_fila_div aa">
                 <img
                   class="caracteristicas_img"
-                  src="./Img/undraw_pair_programming_re_or4x.svg"
+                  src="./Img/proyectos/Ecomerce.png"
                   width="300px"
                   alt=""
                 />
-                <h6 class="caracteristicas_h6">titulo 1234</h6>
-                <p class="caracteristicas_p">lalalaallalala</p>
+                <h6 class="caracteristicas_h6">Undervolt Gaming</h6>
+                <p class="caracteristicas_p">Tienda Gamer</p>
               </div>
             </div>
 
             <div class="caracteristicas_fila2">
-              <div class="caracteristicas_fila_div">
+              <div class="caracteristicas_fila_div proyectos_fila_div aa">
                 <img
                   class="caracteristicas_img"
                   src="./Img/undraw_pair_programming_re_or4x.svg"
@@ -348,7 +380,7 @@
                 <p class="caracteristicas_p">lalalaallalala</p>
               </div>
 
-              <div class="caracteristicas_fila_div">
+              <div class="caracteristicas_fila_div proyectos_fila_div aa">
                 <img
                   class="caracteristicas_img"
                   src="./Img/undraw_pair_programming_re_or4x.svg"
@@ -359,7 +391,7 @@
                 <p class="caracteristicas_p">lalalaallalala</p>
               </div>
 
-              <div class="caracteristicas_fila_div">
+              <div class="caracteristicas_fila_div proyectos_fila_div aa">
                 <img
                   class="caracteristicas_img"
                   src="./Img/undraw_pair_programming_re_or4x.svg"
@@ -526,82 +558,8 @@
 
       <!----------------------------------------------------------------------------------------------------------->
 
-      <!--CONTACTO-->
-
-      <!-- <section class="Contacto" id="Contacto">
-        <section class="form mb-4 contacto_form">
-          <h2 class="h1-responsive font-weight-bold text-center my-4">
-            Contacto
-          </h2>
-          <p class="text-center w-responsive mx-auto mb-5">
-            ¡Si tenes alguna duda no dudes en consultarnos!
-          </p>
-
-          <div class="row contact_row">
-            <div class="col-md-9 mb-md-0 mb-5 contact_row_div">
-              <form
-                id="contact-form"
-                name="contact-form"
-                action="mail.php"
-                method="POST"
-              >
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <label for="name" class="">Nombre</label>
-
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        class="form-control"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <label for="email" class="">Email</label>
-
-                      <input
-                        type="text"
-                        id="email"
-                        name="email"
-                        class="form-control"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="md-form">
-                      <label for="message">Mensaje</label>
-
-                      <textarea
-                        type="text"
-                        id="message"
-                        name="message"
-                        rows="2"
-                        class="form-control md-textarea"
-                      ></textarea>
-                    </div>
-                  </div>
-                </div>
-              </form>
-
-              <div class="text-center text-md-left">
-                <a class="boton-price btn btn-primary">Enviar</a>
-              </div>
-              <div class="status"></div>
-            </div>
-          </div>
-        </section>
-      </section> -->
-
-      <!----------------------------------------------------------------------------------------------------------->
-
       <!--FORMULARIO-->
+      <!--CONTACTO-->
 
       <section class="formulario__" id="contacto">
         <form
@@ -628,7 +586,7 @@
             required
           ></textarea>
           <br />
-          <input type="submit" value="Enviar" id="boton" />
+          <input type="submit" value="Enviar" id="boton" class="heartbeat" />
         </form>
       </section>
 
@@ -641,13 +599,13 @@
 
         <section class="d-flex justify-content-center p-4 border-bottom">
           <div class="d-flex justify-content-center footer_div_redes">
-            <a href="" class="link-secondary">
+            <a href="#" class="link-secondary heartbeat">
               <i class="bi bi-facebook socialmedia"></i>
             </a>
-            <a href="" class="link-secondary">
+            <a href="#" class="link-secondary heartbeat">
               <i class="bi bi-instagram socialmedia"></i>
             </a>
-            <a href="" class="link-secondary">
+            <a href="#" class="link-secondary heartbeat">
               <i class="bi bi-linkedin socialmedia"></i>
             </a>
           </div>
@@ -708,19 +666,24 @@
         </section>
 
         <!-- Copyright -->
-        <div class="text-center p-4">
+        <div class="text-center p-4 footer_copyright">
           © 2023 Copyright:
-          <a class="text-reset fw-bold footer_copyright">WebStudio</a>
+          <p class="text-reset fw-bold footer_copyright_p">WebStudio</p>
         </div>
       </footer>
       <!----------------------------------------------------------------------------------------------------------->
     </main>
-  </body>
 
-  <!--SCRIPTS-->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"
-  ></script>
+    <!--SCRIPTS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
